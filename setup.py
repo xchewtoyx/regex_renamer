@@ -11,10 +11,10 @@ setup(
     packages=find_packages(),
     install_requires=[
         'cement>=2.6.0,<2.11',
-    } 
+    ],
     entry_points={
         'console_scripts': [
-            'rrn=regex_rename.cli:main,
+            'rrn=regex_rename.cli:main',
         ],
     },
 )
